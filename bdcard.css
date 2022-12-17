@@ -1,0 +1,100 @@
+body{
+    margin-top: 20px;
+    background: linear-gradient(lightblue, lightpink);
+    text-align: center;
+    font-family:'Orbitron', sans-serif;
+    color: #ffffff;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1,h2,h3,h4,p{
+    text-shadow: 0 0 3px black;
+}
+
+#img1{
+    width: 150px;
+    border: 10px double #EFB0C9;
+    border-radius: 50%;
+}
+
+#bdage{
+    background: #EFB0C9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 15px 0 5px 0;
+}
+#bddate{
+    background: #EFB0C9; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+}
+
+.gift-section{
+    margin: 50px;
+}
+
+.gift-title{
+    margin-bottom: 5px;
+}
+
+.gift-hint{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.gify1{
+    width: 450px;
+    height: 300px;
+    border: 10px double #EFB0C9;
+    border-radius: 10px;
+    background-image: url('images/gift.jpg');
+    background-size: cover;
+}
+
+.gify1:hover{
+    background-image: url('images/200.webp');
+}
+
+.gify2{
+    width: 450px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    border: 10px double #EFB0C9;
+    border-radius: 10px;
+    background-image: url('images/gift.jpg');
+    background-size: cover;
+}
+
+#gify2:hover{
+    background-image: url('images/appluse.webp');
+}
+
+#gify3:hover{
+    background-image: url('images/genius.webp');
+}
+
+#gify4:hover{
+    background-image: url('images/badass.webp');
+}
+
+#gify5{
+    width: 550px;
+    height: 400px;
+}
+#gify5:hover{
+    background-image: url('images/cheers.webp');
+}
+
+#footer{
+    font-style: italic;
+    margin: 15px auto 5px auto;
+    width: 400px;
+}
+
+a{
+    color: white;
+}
